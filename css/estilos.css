@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reseteo para los navegadores de version anterior */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+.bxslider{
+	width: 100% !important; 
+}
+header .oculto{
+	display: none;
+}
+
+.contador {
+	color:#717171;
+	height: 100%;
+}
+.tiempo{
+	height: 100%;
+}
+
+.tiempo h2 {
+	font-size:4.5em;
+}
+.tema h3{
+	font-size:3em;
+}
+.tiempo p{
+	font-size:1.1em;
+}
+.titulo h1{
+	background-color:#717171;
+	text-align: center;
+	font-size: 2em;
+}
+.cuerpo .imagen img{
+	width: 100%;
+
+}
+.cuerpo .texto{
+	padding-left:20px;
+	padding-right:20px;
+}
+.cuerpo .texto p{
+	font-size: 1.2em;
+}
+
+footer{
+	background-color:#282828;
+}
+footer a img{
+	width: 70%;
+}
+
+
+/* ------------inicio de media-query----------*/
+
+@media (max-width: 768px){
+	header .oculto{display: block;}
+	header .visible{display: none;}
+	.tiempo h2 {font-size:2.8em;}
+	.tema h3{ font-size:1.5em;}
+	.tiempo p{font-size:0.9em;}
+}
+
+@media (max-width: 425px){
+	header .oculto{display: block;}
+	header .visible{display: none;}
+	.tiempo h2 {font-size:2.4em;}
+	.tema h3{ font-size:1.2em;}
+	.tiempo p{font-size:1em;}
+	.cuerpo .texto{
+		margin-top: 20px;
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+}

@@ -1,0 +1,27 @@
+---Landing Frontend Cencosud---
+
+Consigna:
+-Desarrollar una landing page con código reutilizable.
+
+Contenido:
+* Un slider fullwidth con 3 imágenes.
+* Un reloj de cuenta regresiva.
+* Un título.
+* Una imagen acompañada de un párrafo.
+* Un footer con datos de contacto.
+(Ver wireframe adjunto)
+
+Notas:
+- Se puede utilizar https://via.placeholder.com/ para la generación de las piezas).
+- El slider se debe desarrollar con Jquery.
+- El contador puede desarrollarse con cualquier lenguaje. 
+- La landing debe ser 100% responsiva y SEO friendly.
+
+Recomendamos: 
+- Implementar una correcta sintaxis, comentado y prolijadad en del código.
+- Utilizar la menor cantidad de archivos y líneas de código posibles.
+
+Entrega:
+Enviar por email a patricio.doldan@cencosud.com.ar una carpeta comprimida que contenga todos los archivos necesarios para la correcta visualización offline de la landing. Incluir CV. 
+
+Gracias. 
